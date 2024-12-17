@@ -83,10 +83,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "NSURL+QMUI.h"
 #endif
 
-#if __has_include("QMUIAlbumViewController.h")
-#import "QMUIAlbumViewController.h"
-#endif
-
 #if __has_include("QMUIAlertController.h")
 #import "QMUIAlertController.h"
 #endif
@@ -151,14 +147,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "QMUICommonDefines.h"
 #endif
 
-#if __has_include("QMUICommonTableViewController.h")
-#import "QMUICommonTableViewController.h"
-#endif
-
-#if __has_include("QMUICommonViewController.h")
-#import "QMUICommonViewController.h"
-#endif
-
 #if __has_include("QMUIConfiguration.h")
 #import "QMUIConfiguration.h"
 #endif
@@ -167,24 +155,8 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "QMUIConfigurationMacros.h"
 #endif
 
-#if __has_include("QMUIConsole.h")
-#import "QMUIConsole.h"
-#endif
-
-#if __has_include("QMUIConsoleToolbar.h")
-#import "QMUIConsoleToolbar.h"
-#endif
-
-#if __has_include("QMUIConsoleViewController.h")
-#import "QMUIConsoleViewController.h"
-#endif
-
 #if __has_include("QMUICore.h")
 #import "QMUICore.h"
-#endif
-
-#if __has_include("QMUIDialogViewController.h")
-#import "QMUIDialogViewController.h"
 #endif
 
 #if __has_include("QMUIDisplayLinkAnimation.h")
@@ -219,34 +191,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "QMUIHelper.h"
 #endif
 
-#if __has_include("QMUIImagePickerCollectionViewCell.h")
-#import "QMUIImagePickerCollectionViewCell.h"
-#endif
-
-#if __has_include("QMUIImagePickerHelper.h")
-#import "QMUIImagePickerHelper.h"
-#endif
-
-#if __has_include("QMUIImagePickerPreviewViewController.h")
-#import "QMUIImagePickerPreviewViewController.h"
-#endif
-
-#if __has_include("QMUIImagePickerViewController.h")
-#import "QMUIImagePickerViewController.h"
-#endif
-
-#if __has_include("QMUIImagePreviewView.h")
-#import "QMUIImagePreviewView.h"
-#endif
-
-#if __has_include("QMUIImagePreviewViewController.h")
-#import "QMUIImagePreviewViewController.h"
-#endif
-
-#if __has_include("QMUIImagePreviewViewTransitionAnimator.h")
-#import "QMUIImagePreviewViewTransitionAnimator.h"
-#endif
-
 #if __has_include("QMUIKeyboardManager.h")
 #import "QMUIKeyboardManager.h"
 #endif
@@ -275,20 +219,12 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "QMUILayouterLinearVertical.h"
 #endif
 
-#if __has_include("QMUILog+QMUIConsole.h")
-#import "QMUILog+QMUIConsole.h"
-#endif
-
 #if __has_include("QMUILog.h")
 #import "QMUILog.h"
 #endif
 
 #if __has_include("QMUILogItem.h")
 #import "QMUILogItem.h"
-#endif
-
-#if __has_include("QMUILogManagerViewController.h")
-#import "QMUILogManagerViewController.h"
 #endif
 
 #if __has_include("QMUILogNameManager.h")
@@ -327,14 +263,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "QMUINavigationBarScrollingSnapAnimator.h"
 #endif
 
-#if __has_include("QMUINavigationButton.h")
-#import "QMUINavigationButton.h"
-#endif
-
-#if __has_include("QMUINavigationController.h")
-#import "QMUINavigationController.h"
-#endif
-
 #if __has_include("QMUINavigationTitleView.h")
 #import "QMUINavigationTitleView.h"
 #endif
@@ -345,26 +273,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 
 #if __has_include("QMUIPieProgressView.h")
 #import "QMUIPieProgressView.h"
-#endif
-
-#if __has_include("QMUIPopupContainerView.h")
-#import "QMUIPopupContainerView.h"
-#endif
-
-#if __has_include("QMUIPopupMenuItem.h")
-#import "QMUIPopupMenuItem.h"
-#endif
-
-#if __has_include("QMUIPopupMenuItemView.h")
-#import "QMUIPopupMenuItemView.h"
-#endif
-
-#if __has_include("QMUIPopupMenuItemViewProtocol.h")
-#import "QMUIPopupMenuItemViewProtocol.h"
-#endif
-
-#if __has_include("QMUIPopupMenuView.h")
-#import "QMUIPopupMenuView.h"
 #endif
 
 #if __has_include("QMUIRuntime.h")
@@ -379,20 +287,8 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "QMUISearchBar.h"
 #endif
 
-#if __has_include("QMUISearchController.h")
-#import "QMUISearchController.h"
-#endif
-
 #if __has_include("QMUISegmentedControl.h")
 #import "QMUISegmentedControl.h"
-#endif
-
-#if __has_include("QMUISheetPresentationNavigationBar.h")
-#import "QMUISheetPresentationNavigationBar.h"
-#endif
-
-#if __has_include("QMUISheetPresentationSupports.h")
-#import "QMUISheetPresentationSupports.h"
 #endif
 
 #if __has_include("QMUIStaticTableViewCellData.h")
@@ -401,10 +297,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 
 #if __has_include("QMUIStaticTableViewCellDataSource.h")
 #import "QMUIStaticTableViewCellDataSource.h"
-#endif
-
-#if __has_include("QMUITabBarViewController.h")
-#import "QMUITabBarViewController.h"
 #endif
 
 #if __has_include("QMUITableView.h")
@@ -433,18 +325,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 
 #if __has_include("QMUITextView.h")
 #import "QMUITextView.h"
-#endif
-
-#if __has_include("QMUITheme.h")
-#import "QMUITheme.h"
-#endif
-
-#if __has_include("QMUIThemeManager.h")
-#import "QMUIThemeManager.h"
-#endif
-
-#if __has_include("QMUIThemeManagerCenter.h")
-#import "QMUIThemeManagerCenter.h"
 #endif
 
 #if __has_include("QMUITips.h")
@@ -527,10 +407,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "UIColor+QMUI.h"
 #endif
 
-#if __has_include("UIColor+QMUITheme.h")
-#import "UIColor+QMUITheme.h"
-#endif
-
 #if __has_include("UIControl+QMUI.h")
 #import "UIControl+QMUI.h"
 #endif
@@ -545,10 +421,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 
 #if __has_include("UIImage+QMUI.h")
 #import "UIImage+QMUI.h"
-#endif
-
-#if __has_include("UIImage+QMUITheme.h")
-#import "UIImage+QMUITheme.h"
 #endif
 
 #if __has_include("UIImageView+QMUI.h")
@@ -573,10 +445,6 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 
 #if __has_include("UINavigationBar+QMUIBarProtocol.h")
 #import "UINavigationBar+QMUIBarProtocol.h"
-#endif
-
-#if __has_include("UINavigationController+NavigationBarTransition.h")
-#import "UINavigationController+NavigationBarTransition.h"
 #endif
 
 #if __has_include("UINavigationController+QMUI.h")
@@ -671,20 +539,8 @@ static NSString * const QMUI_VERSION = @"4.8.0";
 #import "UIView+QMUIBorder.h"
 #endif
 
-#if __has_include("UIView+QMUITheme.h")
-#import "UIView+QMUITheme.h"
-#endif
-
 #if __has_include("UIViewController+QMUI.h")
 #import "UIViewController+QMUI.h"
-#endif
-
-#if __has_include("UIViewController+QMUITheme.h")
-#import "UIViewController+QMUITheme.h"
-#endif
-
-#if __has_include("UIVisualEffect+QMUITheme.h")
-#import "UIVisualEffect+QMUITheme.h"
 #endif
 
 #if __has_include("UIVisualEffectView+QMUI.h")
